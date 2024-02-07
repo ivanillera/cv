@@ -20,14 +20,14 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Iván Illera",
+  initials: "II",
+  location: "Zárate, Buenos Aires, Argentina",
+  locationLink: "https://www.google.com/maps/place/Zárate Buenos Aires",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Estudiante de Ingeniería en Sistemas de Información a punto de concluir mi carrera con la finalización de la tesis.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Estudiante de Ingeniería en Sistemas de Información. Apasionado por la tecnología. Autodidacta y con ganas de trabajar en equipo.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -53,65 +53,51 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "UTN: Facultad Regional Delta",
+      degree: "Ingeniería en Sistemas de Información",
+      start: "2017",
+      end: "2024",
+    },
+    {
+      school: "Instituto de Vanguardia",
+      degree: "Bachiller con Orientación en Ciencias Naturales",
+      start: "2010",
+      end: "2016",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Via Informática Pilar",
+      link: "",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Programador Web",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Capacitación para la programación web. HTML, CSS y JS, junto con Angular. Creación y modificación de tablas SQL. .NET",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "Supermercado La Preferida",
+      link: "https://clevertech.biz",
+      badges: [""],
+      title: "Asistente administrativo y gerencial",
+      logo: ClevertechLogo,
+      start: "2017",
+      end: "2020",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Comunicación diaria con clientes y atención al público. Gestión de pedidos, relación con proveedores y control de facturación. Organización de logística para hacer seguimiento de suministros, recursos e inventario. Realización de tareas administrativas cotidianas y de gestión contable.",
     },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+    
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "React",
+    "Basic Python",
+    "Git",
+    "Photoshop",
+    "HTML/CSS/JS",
+    "TailwindCSS",
+    "Firebase"
   ],
   projects: [
     {
