@@ -87,8 +87,8 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+          <Avatar className="size-36">
+            <AvatarImage alt={RESUME_DATA.name} src="https://i.imgur.com/kY7Rmc5.png" />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
@@ -159,7 +159,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Lenguaje</h2>
+          <h2 className="text-xl font-bold">Idiomas</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
           Español, nativo.
           </p>
@@ -180,7 +180,7 @@ export default function Page() {
       
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">Proyectos</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
