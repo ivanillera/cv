@@ -49,7 +49,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "UTN: Facultad Regional Delta",
-      degree: "Ingeniería en Sistemas de Información (Proyecto final pendiente). Promedio: 8.76",
+      degree: "Ingeniería en Sistemas de Información (Proyecto final pendiente). Promedio: 8,76. Fecha esperada de finalización: Julio 2024.",
       start: "2017",
       end: "2024",
     },
